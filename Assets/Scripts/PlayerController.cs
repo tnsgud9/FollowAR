@@ -1,44 +1,60 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
-
+public enum PlayerState
+{
+    Idle,
+    Move
+}
 public class PlayerController : MonoBehaviour
 {
-    public enum State
-    {
-        idle, move
-    }
-
+    private bool stateChange;
+    private Animator anim;
     public float speed;
+    public PlayerState currentState = PlayerState.Idle;
+    private bool stateChanged = false;
+    public List<Vector3> wayPoint = new List<Vector3>();
 
-    private State _state = State.idle;
-    private Animator _animator;
-    
-    
-    void Start()
+    private void Start()
     {
-        
-    }
-    
-    void Update()
-    {
-        
+        anim = GetComponent<Animator>();
     }
 
-    public void setState(State s)
+    private void Update()
     {
-        switch (s)
+        AnimationController();
+        MoveController();
+        
+        stateChanged = false;
+    }
+
+    private void AnimationController()
+    {
+        if(stateChange && wayPoint.Count.Equals(0))
+            anim.SetTrigger("idle");
+        else anim.SetTrigger("move");
+    }
+
+    private void MoveController()
+    {
+        if (!stateChanged)
         {
-            case State.idle:
-                
-                break;
-            case State.move:
-                break;
+            if (transform.position == wayPoint[0])
+                wayPoint.RemoveAt(0);
+            transform.position = Vector3.MoveTowards(transform.position, wayPoint[0], Time.deltaTime * speed);
         }
     }
-    
-    public void PlayerMove(Transform pos)
+    private void ChangeState(PlayerState state)
     {
-        
+        currentState = state;
+        stateChanged = true;
+    }
+    
+    public void AddWayPoint(Vector3 pos)
+    {
+        wayPoint.Add(pos);
+        ChangeState(PlayerState.Move);
     }
 }

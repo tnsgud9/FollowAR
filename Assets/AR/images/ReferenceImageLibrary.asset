@@ -16,12 +16,12 @@ MonoBehaviour:
   m_GuidHigh: 8973353705944022409
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5128051435142835944
-      m_GuidHigh: 9530581906754546843
+      m_GuidLow: 5181607742439122209
+      m_GuidHigh: 3504698733372893064
     m_SerializedTextureGuid:
-      m_GuidLow: 4842775923656399853
-      m_GuidHigh: 6801656731169776762
-    m_Size: {x: 0.1, y: 0.1}
-    m_SpecifySize: 1
-    m_Name: redrobot1
+      m_GuidLow: 11525922023581036319
+      m_GuidHigh: 17157300102624414378
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: coffee-image
     m_Texture: {fileID: 0}
