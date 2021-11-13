@@ -613,6 +613,9 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity 2020.2.7f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Recorder.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -625,11 +628,8 @@
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <Reference Include="Unity.XR.Management.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -637,77 +637,77 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.XR.ARCore.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Notifications.Android">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Notifications.iOS">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARFoundation.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARFoundation">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARCore.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.XR.ARCore">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ <Reference Include="Unity.Notifications.iOS">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Recorder">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Recorder.Editor">
- <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
  <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.Management">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARSubsystems">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARCore">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARCore.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARFoundation.Editor">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Notifications.Android">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.XR.ARFoundation">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder">
+ <HintPath>C:/Users/user/Documents/GitHub/FollowAR3/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
